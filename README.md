@@ -1,2 +1,2 @@
 # KioskMode-Android
-Screen Pinning Android Lollipop
+Screen Pinning Android Lollipop without Rooting
