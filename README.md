@@ -1,9 +1,20 @@
 # KioskMode-Android
 Screen Pinning Android Lollipop without Rooting
 
-###set as Admin open CMD
+### Set as Admin open CMD
 
     adb shell dpm set-device-owner net.derohimat.kioskmodesample/.AdminReceiver
+
+### If you want allow some apps
+thanks for [yurik94](https://github.com/yurik94)
+
+https://github.com/derohimat/KioskMode-Android/issues/2#issuecomment-434504722
+
+    mDpm.setLockTaskPackages(
+                        deviceAdmin, //deviceAdmin = new ComponentName(this, AdminReceiver.class);
+                        whitelistedPackages); //String[]
+
+
 
 ### License
     Copyright 2016 Deni Rohimat
