@@ -16,8 +16,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mBtnState = (Button) findViewById(R.id.btnState);
-        mBtnMove = (Button) findViewById(R.id.btnMove);
+        mBtnState = findViewById(R.id.btnState);
+        mBtnMove = findViewById(R.id.btnMove);
 
         mBtnState.setOnClickListener(this);
         mBtnMove.setOnClickListener(this);

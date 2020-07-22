@@ -16,7 +16,7 @@ public class SecondActivity extends BaseActivity implements View.OnClickListener
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-        Button btnBack = (Button) findViewById(R.id.btnBack);
+        Button btnBack = findViewById(R.id.btnBack);
         btnBack.setOnClickListener(this);
 
         setUpAdmin();
