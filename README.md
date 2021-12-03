@@ -5,6 +5,14 @@ Screen Pinning Android Lollipop without Rooting
 
     adb shell dpm set-device-owner net.derohimat.kioskmodesample/.AdminReceiver
 
+### Remove Admin
+
+    adb shell dpm remove-active-admin net.derohimat.kioskmodesample/.AdminReceiver
+
+### Check Admin Status
+
+    adb shell dumpsys device_policy
+
 ### If you want allow some apps
 thanks for [yurik94](https://github.com/yurik94)
 
